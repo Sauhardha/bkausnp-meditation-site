@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&display=swap');
+
+.headFont {
+    font-family: 'Playfair Display', serif;
+}
+
+.styleFont {
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+}
+
+.bodyFont {
+    font-family: 'Lato', sans-serif;
+}
+
+/* --------------------------------------- Colours ------- */
+
+.col1 {
+    color: #F7F9FB;
+}
+
+.col2 {
+    color: #8FC1E3;
+}
+
+.col3 {
+    color: #5085A5;
+}
+
+.col4 {
+    color: #31708E;
+}
+
+.col5 {
+    color: #687864;
+}
+
+.col6 {
+    color: #F2636A;
+}
+
+/* ----------------------------------- Background Colours ----- */
+
+.bgcol1 {
+    background-color: #F7F9FB;
+}
+
+.bgcol2 {
+    background-color: #8FC1E3;
+}
+
+.bgcol3 {
+    background-color: #5085A5;
+}
+
+.bgcol4 {
+    background-color: #31708E;
+}
+
+.bgcol5 {
+    background-color: #687864;
+}
+
+
+/* ----------------------------------- Affirmation Colours ----- */
+
+.afcol1 {
+    color: #43a562;
+}
+
+.afcol2 {
+    color: #309997;
+}
+
+.afcol3 {
+    color: #e5835c;
+}
+
+.afcol4 {
+    color: #4c77a5;
+}
+
+.afcol5 {
+    color: #99bc5a;
+}
+
+.afcol6 {
+    color: #b34b76;
+}

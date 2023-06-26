@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+          
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="/style.css">
+
+      <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+      
+    <title>About | Nepalese Brahma Kumaris</title>
+  </head>
+
+
+<body class="bgcol1">
+
+<!-- NAVBAR -->
+<nav class="flex flex-wrap items-center justify-between px-4 py-2 md:py-4">
+  <div class="flex items-center">
+    <a href="#" class="col5 headFont font-bold text-3xl md:text-4xl px-5 md:px-10">
+      <img src="images/logo.png" class="h-20 w-20">
+      <!-- <h2>Meditate.</h2> -->
+    </a>
+  </div>
+
+  <!-- Collapsible Menu -->
+  <div class="md:flex md:items-center md:w-auto relative" id="menu">
+    <input type="checkbox" id="menu-toggle" class="hidden">
+    <label for="menu-toggle" class="md:hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8 text-gray-900 cursor-pointer">
+        <path d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </label>
+    <ul class="md:flex justify-end bodyFont hidden">
+      <li><a href="index.html" class="col5 hover:text-neutral-400 text-base rounded-md px-2 py-1 rounded md:px-5 md:py-2">Home</a></li>
+      <li><a href="about.html" class="col5 hover:text-neutral-400 text-base rounded-md px-2 py-1 rounded md:px-5 md:py-2">About</a></li>
+      <li><a href="contact.html" class="col5 hover:text-neutral-400 text-base rounded-md px-2 py-1 rounded md:px-5 md:py-2">Contact</a></li>
+      <li><a href="odyssey.html" class="text-white bg-rose-400 hover:bg-rose-600 hover:text-white text-xl rounded-md px-2 py-1 rounded md:px-5 md:py-2">Odyssey</a></li>
+    </ul>
+  </div>
+
+  <!-- Collapsible Menu Overlay -->
+  <div class="fixed inset-0 bg-black bg-opacity-50 hidden md:hidden" id="menu-overlay"></div>
+
+  <!-- Slide-in Menu -->
+  <div class="fixed right-0 top-0 h-screen w-full bg-white transform translate-x-full overflow-y-auto transition-transform duration-300 ease-in-out z-10" id="slide-in-menu">
+    <div class="flex items-center justify-between px-4 py-3">
+      <h2 class="text-xl font-bold styleFont">Menu</h2>
+      <label for="menu-toggle" class="text-gray-500 cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+          <path d="M18 6L6 18M6 6l12 12"></path>
+        </svg>
+      </label>
+    </div>
+    <ul class="px-4 py-2 mx-auto justify-center text-center styleFont">
+      <li><a href="index.html" class="col5 hover:text-neutral-400 text-5xl block py-12 px-1 mx-24 border-b-2 border-gray-950">Home.</a></li>
+      <li><a href="about.html" class="col5 hover:text-neutral-400 text-5xl  block py-12 px-1 mx-24 border-b-2 border-gray-950">About.</a></li>
+      <li><a href="contact.html" class="col5 hover:text-neutral-400 text-5xl  block py-12 px-1 mx-24 border-b-2 border-gray-950">Contact.</a></li>
+      <li><a href="odyssey.html" class="text-rose-400 hover:bg-rose-400 hover:text-white text-5xl rounded-md block py-6 px-2 my-10 mx-16">Odyssey.</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+  <!-- BANNER -->
+  <div id="banner" class="h-[90vh] bg-cover bg-center flex items-center justify-center" style="background-image: url('./images/clouds.jpg');">
+        <div data-aos="fade-up" class="flex justify-center flex-col items-center text-center">
+
+            <div class="sm:max-w-2xl md:max-w-2xl mx-auto px-8 md:px-2">
+                <h3 class="text-rose-500 py-4 font-semibold">ABOUT US</h3>
+                <h2 class="md:text-md text-5xl styleFont">
+                    We are the Brahma Kumaris Nepalese Team in Australia.
+                </h2>
+                <h3 class="text-center pt-16 text-lg border-b-2 pb-4 border-sky-300 mx-8"> Our meditation group is dedicated to nurturing a community 
+                  for individuals seeking mindfulness and inner peace. </h3>
+            </div>
+
+            <div class="p-8">
+              <!-- <div class="md:w-36 md:h-36 w-24 h-24 bg-emerald-600 rounded-full"></div> -->
+              <div class="md:w-36 md:h-36 w-24 h-24 rounded-full overflow-hidden flex justify-center items-center">
+                <img src="./images/group.jpeg" alt="Image description" class="w-full h-full object-cover">
+              </div>
+          </div>
+            
+        </div>
+  </div>
+
+  
+
+
+  <!-- AFFIRMATIONS -->
+  <div id="affirmations" class="h-full sm:max-w-full max-w-sm mx-auto flex items-center p-10 justify-center bgcol1">
+
+    
+    
+    <div class="flex justify-center flex-col max-w-sm">
+
+      <div class="bg-white rounded-3xl mx-auto md:max-w-full max-w-96 shadow-lg md:p-8 p-4 top-0" data-aos="zoom-in-up">
+        
+        <div class="grid h-full w-full grid-cols-6 content-center justify-items-center">
+
+          <div class="col-span-3">
+            
+
+        <div class="sm:max-w-2xl md:max-w-lg mx-auto px-10 text-left pb-6">
+            <h3 class="col5 py-2 text-center text-rose-500 py-4 sm:text-lg text-lg font-semibold">WORDS OF AFFIRMATION</h3>
+            <p class="md:text-md text-md italic text-center">
+              
+              Words can have a powerful impact on self-esteem, confidence, and overall well-being. See ours below.
+            </p>
+        </div>
+
+          <div class="flex justify-center p-2">
+            <div class="md:w-full w-full max-w-sm mx-auto over-hidden">
+              <img src="./images/couple.jpeg" alt="Meditating Together" class="w-full h-auto object-cover rounded-2xl">
+            </div>
+            
+          </div>
+
+          </div>
+
+          <div class="col-span-3">
+            <h2 class="headFont md:text-5xl text-md text-center px-8">
+              We offer weekly guided 
+              meditations and monthly celebrations 
+            </h2>
+    
+            <p class="md:p-8 p-4 md:text-lg text-xs md:text-left text-center">
+              Foster a deeper connection with the self, others, 
+              and the world around you. Our group is open to all levels of experience, and we welcome 
+              anyone. <br><br> If you are looking to explore the transformative power of meditation and mindfulness practices,
+              join us as we embark on a journey towards greater clarity, connection, and wellbeing.
+            </p>
+          </div>
+
+        </div>
+
+        
+
+
+        <!-- <div class="h-6 w-6 bg-transparent border-b-4 border-r-4 border-gray-700 transform rotate-45 mx-auto"></div> -->
+
+
+      </div>
+
+        
+        
+        <div class="items-center text-center mb-10 mx-auto sm:max-w-full max-w-sm over-hidden">
+            <div class="border-b-1 border-blue-200 md:p-10 p-4">
+                <h2 data-aos="zoom-in-up" class="p-10 text-6xl headFont font-semibold afcol1"> Serenity. </h2>
+                <h4 class="col5">Cultivating Serenity Through Mindfulness.</h4>
+            </div>
+
+            <div class="border-t-2 border-blue-200 md:p-10 p-4">
+                <h2 data-aos="zoom-in-up" class="p-10 text-6xl headFont font-semibold afcol2"> Calm. </h2>
+                <h4 class="col5">Calming Your Mind and Soothing Your Soul.</h4>
+            </div>
+
+            <div class="border-t-2 border-blue-200 md:p-10 p-4" >
+                <h2 data-aos="zoom-in-up" class="p-10 text-6xl headFont font-semibold afcol3"> Harmony. </h2>
+                <h4 class="col5">The Art of Harmony: Bringing Balance to Your Relationships.</h4>
+            </div>
+
+            <div class="border-t-2 border-blue-200 md:p-10 p-4" >
+                <h2 data-aos="zoom-in-up" class="p-10 text-6xl headFont font-semibold afcol4"> Stillness. </h2>
+                <h4 class="col5">Finding Strength in Rest.</h4>
+            </div>
+
+            <div class="border-t-2 border-blue-200 md:p-10 p-4">
+                <h2 data-aos="zoom-in-up" class="p-10 text-6xl headFont font-semibold afcol5"> Balance. </h2>
+                <h4 class="col5">Navigating Life's Ups and Downs.</h4>
+            </div>
+
+            <div class="border-t-2 border-blue-200 md:p-10 p-4">
+                <h2 data-aos="zoom-in-up" class="p-10 text-6xl headFont font-semibold afcol6"> Clarity. </h2>
+                <h4 class="col5">Gaining Perspective and Insight.</h4>
+            </div>
+
+        </div>
+        
+    </div>
+  </div>
+
+
+
+
+
+
+  <!--FOOTER-->
+  <footer class="bg-gray-800 py-4 sm:h-52 h-64">
+    <div class="container mx-auto flex flex-col md:flex-row md:justify-between">
+
+
+      <div class="text-gray-400 mb-4 md:mb-0 pt-4">
+        <a href="index.html" class="block hover:text-gray-200 sm:py-2 py-1 sm:px-0 px-4">Home</a>
+        <a href="about.html" class="block hover:text-gray-200 sm:py-2 py-1 sm:px-0 px-4">About</a>
+        <a href="contact.html" class="block hover:text-gray-200 sm:py-2 py-1 sm:px-0 px-4">Contact</a>
+      </div>
+
+      <div class="flex justify-between items-center sm:py-4 py-2 px-4 md:px-8">
+        <div class="text-gray-100">
+          <p>Copyright 2023 &copy;</p>
+        </div>
+      </div>
+
+      <div class="text-gray-40 flex items-center sm:p-0 p-4">
+        <div class="text-gray-400">
+          <a href="#" class="pr-4 hover:text-gray-200 text-3xl "><i class="fab fa-facebook"></i></a>
+          <a href="#" class="pr-4 hover:text-gray-200 text-3xl"><i class="fas fa-video"></i></a>
+          <!-- <a href="#" class="hover:text-gray-200 text-3xl"><i class="fa-brands fa-whatsapp"></i></a> -->
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+</body>
+</html>
+
+<script>
+AOS.init({
+  duration: 1300
+});
+
+// Get the necessary elements
+const menuToggle = document.getElementById('menu-toggle');
+const slideInMenu = document.getElementById('slide-in-menu');
+const menuOverlay = document.getElementById('menu-overlay');
+
+// Add event listener for menu toggle
+menuToggle.addEventListener('change', function () {
+  if (this.checked) {
+    // Menu is open
+    slideInMenu.classList.remove('translate-x-full');
+    menuOverlay.classList.remove('hidden');
+  } else {
+    // Menu is closed
+    slideInMenu.classList.add('translate-x-full');
+    menuOverlay.classList.add('hidden');
+  }
+});
+
+// Add event listener for menu overlay click
+menuOverlay.addEventListener('click', function () {
+  menuToggle.checked = false; // Close the menu
+});
+
+</script>

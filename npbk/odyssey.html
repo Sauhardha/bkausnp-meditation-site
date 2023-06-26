@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="import" href="/assets/navbar.html">
+  <link rel="stylesheet" href="/style.css">
+
+        <!--AOS-->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <title>Odyssey | Nepalese Brahma Kumaris</title>
+</head>
+
+<body class="bgcol1">
+
+<!-- NAVBAR -->
+<nav class="flex flex-wrap items-center justify-between px-4 py-2 md:py-4">
+  <div class="flex items-center">
+    <a href="#" class="col5 headFont font-bold text-3xl md:text-4xl px-5 md:px-10">
+      <img src="images/logo.png" class="h-20 w-20">
+      <!-- <h2>Meditate.</h2> -->
+    </a>
+  </div>
+
+  <!-- Collapsible Menu -->
+  <div class="md:flex md:items-center md:w-auto relative" id="menu">
+    <input type="checkbox" id="menu-toggle" class="hidden">
+    <label for="menu-toggle" class="md:hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8 text-gray-900 cursor-pointer">
+        <path d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </label>
+    <ul class="md:flex justify-end bodyFont hidden">
+      <li><a href="index.html" class="col5 hover:text-neutral-400 text-base rounded-md px-2 py-1 rounded md:px-5 md:py-2">Home</a></li>
+      <li><a href="about.html" class="col5 hover:text-neutral-400 text-base rounded-md px-2 py-1 rounded md:px-5 md:py-2">About</a></li>
+      <li><a href="contact.html" class="col5 hover:text-neutral-400 text-base rounded-md px-2 py-1 rounded md:px-5 md:py-2">Contact</a></li>
+      <li><a href="odyssey.html" class="text-white bg-rose-400 hover:bg-rose-600 hover:text-white text-xl rounded-md px-2 py-1 rounded md:px-5 md:py-2">Odyssey</a></li>
+    </ul>
+  </div>
+
+  <!-- Collapsible Menu Overlay -->
+  <div class="fixed inset-0 bg-black bg-opacity-50 hidden md:hidden" id="menu-overlay"></div>
+
+  <!-- Slide-in Menu -->
+  <div class="fixed right-0 top-0 h-screen w-full bg-white transform translate-x-full overflow-y-auto transition-transform duration-300 ease-in-out z-10" id="slide-in-menu">
+    <div class="flex items-center justify-between px-4 py-3">
+      <h2 class="text-xl font-bold styleFont">Menu</h2>
+      <label for="menu-toggle" class="text-gray-500 cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+          <path d="M18 6L6 18M6 6l12 12"></path>
+        </svg>
+      </label>
+    </div>
+    <ul class="px-4 py-2 mx-auto justify-center text-center styleFont">
+      <li><a href="index.html" class="col5 hover:text-neutral-400 text-5xl block py-12 px-1 mx-24 border-b-2 border-gray-950">Home.</a></li>
+      <li><a href="about.html" class="col5 hover:text-neutral-400 text-5xl  block py-12 px-1 mx-24 border-b-2 border-gray-950">About.</a></li>
+      <li><a href="contact.html" class="col5 hover:text-neutral-400 text-5xl  block py-12 px-1 mx-24 border-b-2 border-gray-950">Contact.</a></li>
+      <li><a href="odyssey.html" class="text-rose-400 hover:bg-rose-400 hover:text-white text-5xl rounded-md block py-6 px-2 my-10 mx-16">Odyssey.</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <!--BANNER-->
+  <div id="banner" class="h-[80vh] flex justify-center">
+
+    <div class="flex md:flex-row flex-col h-full w-full items-center">
+
+
+
+        <div class="align-middle justify-center">
+            <div class="justify-center sm:p-10 pt-10">
+              <div class="h-56 w-72  md:h-[550px] md:w-[710px] bg-center bg-no-repeat bg-cover"
+                style="background-image: url('/images/odyssey.svg');">
+              </div>
+            </div>
+        </div>
+
+
+        <div class="justify-center">
+            <div data-aos="fade-up" class=" sm:p-20 p-10">
+              <h2 class="styleFont sm:text-7xl pb-6 text-2xl text-red-400">Monthly Odyssey</h2>
+              <h4 class="bodyFont sm:text-base text-xs sm:py-8 py-2">An odyssey is a long journey, usually a spiritual or physical voyage. <br><br>
+                On this page we will post monthly themed content with an audio track related to that month's theme. We look forward to sharing this journey with you soon.</h4>
+                <a href="#">
+                    <button class="bgcol3 md:text-sm text-xs hover:bg-emerald-600 text-white font-bold md:py-3 md:px-6 py-2 px-3 rounded-full"> 
+                      Coming Soon
+                    </button>
+                  </a>  
+            </div>
+            
+        </div>
+
+
+
+
+      
+    </div>
+
+  </div>
+
+</body>
+</html>
+
+
+<script>
+  AOS.init({
+    duration: 1300
+  });
+  
+  // Get the necessary elements
+  const menuToggle = document.getElementById('menu-toggle');
+  const slideInMenu = document.getElementById('slide-in-menu');
+  const menuOverlay = document.getElementById('menu-overlay');
+  
+  // Add event listener for menu toggle
+  menuToggle.addEventListener('change', function () {
+    if (this.checked) {
+      // Menu is open
+      slideInMenu.classList.remove('translate-x-full');
+      menuOverlay.classList.remove('hidden');
+    } else {
+      // Menu is closed
+      slideInMenu.classList.add('translate-x-full');
+      menuOverlay.classList.add('hidden');
+    }
+  });
+  
+  // Add event listener for menu overlay click
+  menuOverlay.addEventListener('click', function () {
+    menuToggle.checked = false; // Close the menu
+  });
+  
+  
+  </script>

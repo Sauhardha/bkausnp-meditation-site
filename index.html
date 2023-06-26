@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="import" href="/assets/navbar.html">
+  <link rel="stylesheet" href="/style.css">
+
+  <!--AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+
+  <title> Meditation | Nepalese Brahma Kumaris | Nepali Om Shanti</title>
+</head>
+
+
+
+<body class="bgcol1">
+
+<!-- NAVBAR -->
+<nav class="flex flex-wrap items-center justify-between px-4 py-2 md:py-4">
+  <div class="flex items-center">
+    <a href="#" class="col5 headFont font-bold text-3xl md:text-4xl px-5 md:px-10">
+      <img src="images/logo.png" class="h-20 w-20">
+      <!-- <h2>Meditate.</h2> -->
+    </a>
+  </div>
+
+  <!-- Collapsible Menu -->
+  <div class="md:flex md:items-center md:w-auto relative" id="menu">
+    <input type="checkbox" id="menu-toggle" class="hidden">
+    <label for="menu-toggle" class="md:hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8 text-gray-900 cursor-pointer">
+        <path d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </label>
+    <ul class="md:flex justify-end bodyFont hidden">
+      <li><a href="index.html" class="col5 hover:text-neutral-400 text-base rounded-md px-2 py-1 rounded md:px-5 md:py-2">Home</a></li>
+      <li><a href="about.html" class="col5 hover:text-neutral-400 text-base rounded-md px-2 py-1 rounded md:px-5 md:py-2">About</a></li>
+      <li><a href="contact.html" class="col5 hover:text-neutral-400 text-base rounded-md px-2 py-1 rounded md:px-5 md:py-2">Contact</a></li>
+      <li><a href="odyssey.html" class="text-white bg-rose-400 hover:bg-rose-600 hover:text-white text-xl rounded-md px-2 py-1 rounded md:px-5 md:py-2">Odyssey</a></li>
+    </ul>
+  </div>
+
+  <!-- Collapsible Menu Overlay -->
+  <div class="fixed inset-0 bg-black bg-opacity-50 hidden md:hidden" id="menu-overlay"></div>
+
+  <!-- Slide-in Menu -->
+  <div class="fixed right-0 top-0 h-screen w-full bg-white transform translate-x-full overflow-y-auto transition-transform duration-300 ease-in-out z-10" id="slide-in-menu">
+    <div class="flex items-center justify-between px-4 py-3">
+      
+      <label for="menu-toggle" class="text-gray-500 cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6">
+          <path d="M18 6L6 18M6 6l12 12"></path>
+        </svg>
+      </label>
+    </div>
+    <ul class="py-2 mx-auto justify-center text-center styleFont">
+      <li><a href="index.html" class="col5 hover:text-neutral-400 text-5xl block py-12 px-1 mx-16 border-b-2 border-gray-950">Home.</a></li>
+      <li><a href="about.html" class="col5 hover:text-neutral-400 text-5xl  block py-12 px-1 mx-16 border-b-2 border-gray-950">About.</a></li>
+      <li><a href="contact.html" class="col5 hover:text-neutral-400 text-5xl  block py-12 px-1 mx-16 border-b-2 border-gray-950">Contact.</a></li>
+      <li><a href="odyssey.html" class="text-rose-400 hover:bg-rose-400 hover:text-white text-5xl rounded-md block py-6 my-10 mx-16">Odyssey.</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+  <!--BANNER-->
+  <div id="banner" class="h-[80vh] flex items-center justify-center container mx-auto">
+    <div class="grid h-full w-full grid-cols-5 content-center justify-items-center">
+
+      <div class="col-span-2">
+        <div class="justify-self-start sm:p-20 ">
+          <div class="h-72 w-72 bg-center bg-no-repeat bg-cover"
+            style="background-image: url('/images/meditating.svg');">
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="col-span-3" data-aos="fade-up" data-aos-duration="1300">
+        <div class="justify-self-end sm:p-20 p:20 col4">
+          <h2 class="styleFont sm:text-7xl pb-6 text-3xl">Welcome, let's relax </h2>
+          <a href="contact.html">
+            <button class="bgcol3 bodyFont hover:bg-emerald-300 text-white font-bold py-2 px-6 rounded-full"> 
+              Get Started
+            </button>
+          </a>  
+          <h4 class="bodyFont sm:text-base text-xs sm:py-8 py-2">Please find the session times and relevant information for our meditation
+            group below.</h4>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!--INFO-SECTION-->
+  <div class="h-[110vh] bg-sky-100 relative">
+    <div class="flex h-screen items-center justify-center">
+      <div class="w-full sm:max-w-screen-lg">
+        <div class="bg-white rounded-3xl shadow-lg p-8 top-0 sm:-mt-40 -mt-20">
+          
+          <div class="pt-40 px-0 flex flex-col">
+
+            <div data-aos="zoom-in-up">
+              <h1  class="sm:text-5xl text-3xl font-medium text-gray-700 text-center pb-6">हाम्रो ध्यान समूहमा सामेल हुनुहोस् र , <br> आनन्द पत्ता
+                लगाउनुहोस्। 
+              </h1>
+              <h3 class="text-center pb-16 text-lg  mx-16"> These sessions are hosted regularly and organised by our members </h3>
+            </div>
+
+            <div class="border-b-2 border-blue-200"></div>
+    
+            <div data-aos="zoom-in-up" class="flex flex-wrap justify-center p-6 text-center">
+              <div class="sm:p-6 p-1 " style="flex-basis: 33.33%; max-width: 33.33%;">
+                <h2 class="text-xl font-medium pb-4 pt-8">3:30am to 6:30am</h2>
+                <p class="sm:text-base text-sm">Daily Amritbela & Nepali Murli.</p>
+              </div>
+    
+              <div class="sm:p-6 p-1 " style="flex-basis: 33.33%; max-width: 33.33%;">
+                <h2 class="text-xl font-medium pb-4 pt-8">6:30pm to 7:30pm</h2>
+                <p class="sm:text-base text-sm">Daily Numashan Yog.</p>
+              </div>
+    
+              <div class="sm:p-6 p-1 " style="flex-basis: 33.33%; max-width: 33.33%;">
+                <h2 class="text-xl font-medium pb-4 pt-8">7:30pm to 8:30pm</h2>
+                <p class="sm:text-base text-sm">Avyakt Murli fortnightly on Thursdays.</p>
+              </div>
+            </div>
+          </div>
+          
+          
+         
+          
+
+          <div class="flex w-full bgcol3 rounded-full">
+            <div class="flex justify-start my-auto px-8">
+              <h4 class="text-white sm:text-lg text-sm">SEND US AN EMAIL. <br> bkausnp@gmail.com</h4>
+            </div>
+            <div class="flex flex-grow"></div>
+            <div class="flex md:p-4 p-2">
+              <a href="https://us02web.zoom.us/j/82542967948?pwd=YWNQaURXajdyK2hIMFgycmxiNWErdz09">
+                <button class="bgcol3 text-white bodyFont hover:bg-emerald-300 border-2 border-gray-100 font-bold md:text-lg text-xs py-2 md:px-10 px-4 rounded-full">      
+                  Zoom Call
+                </button>
+              </a>
+            </div>
+          </div>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <!--POSTERS-->
+  <div class="h-[160vh] md:h-[120vh] items-center bgcol2">
+
+    <div data-aos="zoom-in-up">
+      <h4 class="flex justify-center items-center bodyFont text-white col4 sm:text-xl text-sm pt-20 ">UPCOMING EVENTS</h4>
+      <h2 class="flex justify-center text-center styleFont text-white col4 sm:text-6xl text-4xl pt-6 pb-10">Take a look at the <br> programs coming soon</h2>
+    </div>
+
+
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 justify-items-center items-center p-6">
+
+      <div class="bg-center bg-no-repeat bg-cover h-[450px] w-80 mx-auto"
+           style="background-image: url('/images/210623.jpeg'); background-position: center top;" data-aos="fade-up" data-aos-duration="2000">
+      </div>
+
+      <div class="bg-center bg-no-repeat bg-cover h-72 w-80 mx-auto"
+           style="background-image: url('/images/c.jpeg'); background-position: center top;" data-aos="fade-up" data-aos-duration="2000">
+      </div>
+
+    </div>
+    
+
+  </div>
+
+  <!--CARDS-->
+  <div class="h-max">
+    <h1 data-aos="zoom-in-up" class="flex justify-center text-center items-center styleFont col4 sm:text-6xl text-3xl pt-20 pb-10">Monthly Celebrations</h1>
+    <div class="grid grid-cols-1 md:grid-cols-4 sm:gap-10 gap-6 sm:p-20 p-4 bodyFont">
+      <div data-aos-duration="700" data-aos="fade-up" class="bg-white p-4 shadow-md rounded-md h-36">
+        <div class="bottom-0 p-4 text-center">
+          <h2 class="text-lg font-bold mb-2 col6">January</h2>
+          <p class="text-gray-600">Baba's Avyakt Month & English New Year.</p>
+        </div>
+      </div>
+      <div data-aos-duration="900" data-aos="fade-up" class="bg-white p-4 shadow-md rounded-md h-36">
+        <div class="bottom-0 p-4 text-center">
+          <h2 class="text-lg font-bold mb-2 col6">February</h2>
+          <p class="text-gray-600">Valentine Retreat</p>
+        </div>
+      </div>
+      <div data-aos-duration="1100" data-aos="fade-up" class="bg-white p-4 shadow-md rounded-md h-36">
+        <div class="bottom-0 p-4 text-center">
+          <h2 class="text-lg font-bold mb-2 col6">March</h2>
+          <p class="text-gray-600">Maha Shivaratri</p>
+        </div>
+      </div>
+      <div data-aos-duration="1300" data-aos="fade-up" class="bg-white p-4 shadow-md rounded-md h-36">
+        <div class="bottom-0 p-4 text-center">
+          <h2 class="text-lg font-bold mb-2 col6">April</h2>
+          <p class="text-gray-600">Nepali New Year</p>
+        </div>
+      </div>
+      <div data-aos-duration="1500" data-aos="fade-up" class="bg-white p-4 shadow-md rounded-md h-36">
+        <div class="bottom-0 p-4 text-center">
+          <h2 class="text-lg font-bold mb-2 col6">May</h2>
+          <p class="text-gray-600">Mother's Day</p>
+        </div>
+      </div>
+      <div data-aos-duration="1700" data-aos="fade-up" class="bg-white p-4 shadow-md rounded-md h-36">
+        <div class="bottom-0 p-4 text-center">
+          <h2 class="text-lg font-bold mb-2 col6">June</h2>
+          <p class="text-gray-600"> Mamma's Day</p>
+        </div>
+      </div>
+      <div data-aos-duration="1900" data-aos="fade-up" class="bg-white p-4 shadow-md rounded-md h-36">
+        <div class="bottom-0 p-4 text-center">
+          <h2 class="text-lg font-bold mb-2 col6">July</h2>
+          <p class="text-gray-600">Silent Retreat</p>
+        </div>
+      </div>
+      <div data-aos-duration="2100" data-aos="fade-up" class="bg-white p-4 shadow-md rounded-md h-36">
+        <div class="bottom-0 p-4 text-center">
+          <h2 class="text-lg font-bold mb-2 col6">August</h2>
+          <p class="text-gray-600">Rakshyabandhan</p>
+        </div>
+      </div>
+      <div data-aos-duration="2300" data-aos="fade-up" class="bg-white p-4 shadow-md rounded-md h-36">
+        <div class="bottom-0 p-4 text-center">
+          <h2 class="text-lg font-bold mb-2 col6">September</h2>
+          <p class="text-gray-600">Teej</p>
+        </div>
+      </div>
+      <div data-aos-duration="2500" data-aos="fade-up" class="bg-white p-4 shadow-md rounded-md h-36">
+        <div class="bottom-0 p-4 text-center">
+          <h2 class="text-lg font-bold mb-2 col6">October</h2>
+          <p class="text-gray-600">Dashain</p>
+        </div>
+      </div>
+      <div data-aos-duration="2700" data-aos="fade-up" class="bg-white p-4 shadow-md rounded-md h-36">
+        <div class="bottom-0 p-4 text-center">
+          <h2 class="text-lg font-bold mb-2 col6">November</h2>
+          <p class="text-gray-600">Tihar</p>
+        </div>
+      </div>
+      <div data-aos-duration="2900" data-aos="fade-up" class="bg-white p-4 shadow-md rounded-md h-36">
+        <div class="bottom-0 p-4 text-center">
+          <h2 class="text-lg font-bold mb-2 col6">December</h2>
+          <p class="text-gray-600">Christmas</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="p-4"></div>
+
+  <!--Subscribe To Us Box-->
+  <div class="relative">
+    <div class="bg-gradient-to-r from-sky-400 to-cyan-600 bg-no-repeat bg-cover bg-left rounded-3xl md:h-64 h-58 w-[70vw] mx-auto shadow-lg p-8 top-0 -mb-10">
+      <div data-aos="fade-up" data-aos-duration="800" class="grid grid-cols-6">
+        <div class="col-span-3">
+          <div class="md:p-4 p-0">
+            <div class="flex md:p-4 p-1">
+              <a href="contact.html">
+                <button class="bgcol2 text-white bodyFont hover:bg-emerald-300 sm:border-8 border-4 border-sky-100 font-bold md:text-lg text-xs py-2 sm:px-10 px-2 rounded-lg">
+                  Send Us A Message
+                </button>
+              </a>
+            </div>
+            <h4 class="text-white md:text-xl text-sm p-2">Join us and get started on finding your inner peace.</h4>
+          </div>
+        </div>
+  
+        <div class="col-span-3 flex items-center justify-end text-right">
+          <h3 class="p-2 font-bold md:text-5xl text-2xl styleFont text-white">Email or Call us to get Started!</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!--FOOTER-->
+  <footer class="bg-gray-800 py-8 sm:h-52 h-72">
+    <div class="container mx-auto flex flex-col md:flex-row md:justify-between">
+
+
+      <div class="text-gray-400 mb-4 md:mb-0 pt-4">
+        <a href="index.html" class="block hover:text-gray-200 sm:py-2 py-1 sm:px-0 px-4">Home</a>
+        <a href="about.html" class="block hover:text-gray-200 sm:py-2 py-1 sm:px-0 px-4">About</a>
+        <a href="contact.html" class="block hover:text-gray-200 sm:py-2 py-1 sm:px-0 px-4">Contact</a>
+      </div>
+
+      <div class="flex justify-between items-center sm:py-4 py-2 px-4 md:px-8">
+        <div class="text-gray-100">
+          <p>Copyright 2023 &copy;</p>
+        </div>
+      </div>
+
+      <div class="text-gray-40 flex items-center sm:p-0 p-4">
+        <div class="text-gray-400">
+          <a href="https://www.facebook.com/profile.php?id=100056312056351" class="pr-4 hover:text-gray-200 text-3xl "><i class="fab fa-facebook"></i></a>
+          <a href="https://us02web.zoom.us/j/82542967948?pwd=YWNQaURXajdyK2hIMFgycmxiNWErdz09" class="pr-4 hover:text-gray-200 text-3xl"><i class="fas fa-video"></i></a>
+          <!-- <a href="#" class="hover:text-gray-200 text-3xl"><i class="fa-brands fa-whatsapp"></i></a> -->
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+</body>
+
+</html>
+
+<script> 
+AOS.init({
+  duration: 1100
+});
+
+// Get the necessary elements
+const menuToggle = document.getElementById('menu-toggle');
+const slideInMenu = document.getElementById('slide-in-menu');
+const menuOverlay = document.getElementById('menu-overlay');
+
+// Add event listener for menu toggle
+menuToggle.addEventListener('change', function () {
+  if (this.checked) {
+    // Menu is open
+    slideInMenu.classList.remove('translate-x-full');
+    menuOverlay.classList.remove('hidden');
+  } else {
+    // Menu is closed
+    slideInMenu.classList.add('translate-x-full');
+    menuOverlay.classList.add('hidden');
+  }
+});
+
+// Add event listener for menu overlay click
+menuOverlay.addEventListener('click', function () {
+  menuToggle.checked = false; // Close the menu
+});
+
+</script>
